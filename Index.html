@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Introduction</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.7;
+            color: #333;
+            background: linear-gradient(135deg, #8B0000 0%, #2C0000 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: rgb(15, 14, 14);
+            border-radius: 15px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #000000, #DC143C);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .header .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .question-section {
+            margin-bottom: 40px;
+            padding: 25px;
+            border-left: 5px solid #DC143C;
+            background: #2C0000;
+            border-radius: 0 10px 10px 0;
+            transition: transform 0.3s ease;
+            color: white;
+        }
+        
+        .question-section:hover {
+            transform: translateX(10px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .question-section h2 {
+            color: #FF6B6B;
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .question-section h2::before {
+            content: "▶";
+            color: #DC143C;
+            margin-right: 10px;
+            font-size: 0.9rem;
+        }
+        
+        .question-section p {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #ffffff;
+            text-align: justify;
+            background: rgba(0,0,0,0.4);
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #8B0000;
+        }
+        
+        .footer {
+            background: #000000;
+            color: #DC143C;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .question-section {
+                margin-bottom: 25px;
+                padding: 20px;
+            }
+            
+            .question-section:hover {
+                transform: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Personal Introduction</h1>
+            <p class="subtitle">Discovering who I am through four meaningful questions</p>
+        </div>
+        
+        <div class="content">
+            <div class="question-section">
+                <h2>Favorite Culture That I'm Not Native To</h2>
+                <p>
+                    I am captivated by Japanese culture through manga, video games, and the Edo period. Manga has opened my eyes to unique storytelling and social values distinct from Western perspectives. The Edo period fascinates me for its sophisticated art and culture developed during isolation, especially the evolution of samurai culture and ukiyo-e art.
+                    I'm also curious about various cultures, including other Asians cultures, Africans and Europeans cultures, along with their philosophies. Growing up in Sioux Falls, surrounded by many different cultures, sparked my curiosity.
+                </p>
+            </div>
+            
+            <div class="question-section">
+                <h2>Historical Figures I Relate To</h2>
+                <p>
+                    I personally relate to my 6th great grandfather Chief Sitting Bull due to his resilience and leadership in the face of adversity. Sitting Bull's unwavering commitment to his people's rights and culture, despite immense pressure from external forces, mirrors my own values of perseverance and standing up for what I believe in. His ability to inspire and unite his community during challenging times resonates with my aspirations to lead with integrity and empathy.
+                </p>
+            </div>
+            
+            <div class="question-section">
+                <h2>A Meal That Represents Me</h2>
+                <p>
+                    A meal that represents me is a buffalo burger or steak, symbolizing my South Dakota roots and my love for hearty, flavorful food. I enjoy cooking and experimenting with different seasonings and sides, which reflects my adventurous spirit and appreciation for diverse culinary experiences. This meal embodies my connection to nature, as buffalo are native to the Great Plains. It also highlights my preference for simple yet satisfying dishes that bring comfort and joy. Additionally, buffalo meat is one of the healthiest options compared to most meats; it is very lean and contains less fat.
+                </p>
+            </div>
+            
+            <div class="question-section">
+                <h2>I Feel Most Creative When...</h2>
+                <p>
+                    After I get done coding I love to either draw or write about characters and stories that I have in my head. I love to draw characters from video games, anime, or manga that I like. I also love to write stories about characters that I have created in my head. I feel most creative when I am able to express myself through art and writing. It allows me to escape from reality and enter a world of my own creation. This is a way for me to relax and unwind after a long day of coding or studying.
+                </p>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; 2025 Personal Introduction | Created for CIS 236</p>
+        </div>
+    </div>
+</body>
+</html>
